@@ -26,7 +26,7 @@ class Dog
     @@all.each do |value|
       names << value.name
     end
-    names
+    puts names
   end
   
 end
