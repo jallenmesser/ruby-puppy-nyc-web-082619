@@ -22,8 +22,11 @@ class Dog
   end 
   
   def self.print_all
-    binding.pry 
-    puts @@all
+    names = []
+    @@all.each do |value|
+      names << value.name
+    end
+    names
   end
   
 end
